@@ -12,3 +12,4 @@ clip = (VideoFileClip("2021-02-26 15-48-26.mkv")
 clip.preview()
 #clip.write_gif("robot_grasp.gif",program='ffmpeg',fps=clip.fps)
 clip.write_gif("robot_pointcloud.gif",program='ffmpeg',fps=15)
+
