@@ -8,4 +8,5 @@ clip = (VideoFileClip("2021-01-31 17-17-36.mkv")
         #.crop(x1=30, y1=330, x2=610, y2=30)) # remove left-right & top-bottom borders
         .crop(x_center= 335, y_center=160, width=520, height=260))
 clip.preview()
-clip.write_gif("robot_grasp.gif",program='ffmpeg',fps=clip.fps)
+#clip.write_gif("robot_grasp.gif",program='ffmpeg',fps=clip.fps)
+clip.write_gif("robot_grasp.gif",program='ffmpeg',fps=15)
