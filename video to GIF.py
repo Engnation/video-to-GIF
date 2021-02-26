@@ -1,6 +1,8 @@
 from moviepy.editor import *
 from pygame import *
 
+#Some resources on moviepy: http://zulko.github.io/blog/2014/01/23/making-animated-gifs-from-video-files-with-python/
+
 clip = (VideoFileClip("2021-01-31 17-17-36.mkv")
         .subclip((0,00.00),(0,07.50))
         .resize(0.3) #1920 x 1080 -> 640 x 360
